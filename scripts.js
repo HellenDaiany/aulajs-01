@@ -43,3 +43,24 @@ console.log(user);
  const nuber = 42;
 //exibindo...
 console.log (nuber);
+
+//Tipo de dados: String
+let userName = "Adriana";
+//exibindo...
+console.log(userName);
+//para exibir o tipo de dado
+console.log(typeof userName);
+
+//existem 2 maneiras de criar variaves do tipo String
+
+console.log ("com aspas duplas");
+console.log ('com aspas simples');
+
+//Quando utilizar uma ou outra?
+console.log ('uma string com "aspas duplas" dentro de simples')
+console.log ("uma string com 'aspas simples' dentro de duplas")
+
+//para escrever multiplas linhas, usa-se o acento grave`
+console.log (`uma string com acento grave 
+    permite escrever
+    múltiplas linhas.`);
