@@ -40,9 +40,9 @@ console.log(user);
 
  // EXiste também o const, que se trata de uma variável onde o valor é fixo, ou seja, nao pode ser alterado.
 
- const nuber = 42;
+ const number = 42;
 //exibindo...
-console.log (nuber);
+console.log (number);
 
 //Tipo de dados: String
 let userName = "Adriana";
@@ -64,3 +64,25 @@ console.log ("uma string com 'aspas simples' dentro de duplas")
 console.log (`uma string com acento grave 
     permite escrever
     múltiplas linhas.`);
+
+    //INCREMENTO
+    let num = 10;
+    //num = num + 1;
+    //ou
+    num++;
+
+    console.log (num)
+
+    //DECREMENTO
+
+    console.log("decremento após: ", num--);
+    console.log(num--);
+    console.log ("decremento antes: ", --num);
+
+    //INCREMENTAR MAIS DE UM (COLOCAR).
+    num += 10;
+    console.log (num);
+
+    //DECREMENTAR MAIS DE UM (REMOVER).
+    num -= 2
+    console.log (num);
