@@ -86,3 +86,11 @@ console.log (`uma string com acento grave
     //DECREMENTAR MAIS DE UM (REMOVER).
     num -= 2
     console.log (num);
+
+    //Operador Condicional ternário
+    let age = 16
+    console.log(
+        age >= 18 // 1 condição
+        ? "Você pode dirigir" // se true
+        :"Você não pode dirigir" //se false
+    );
