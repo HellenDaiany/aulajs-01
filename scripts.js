@@ -123,10 +123,12 @@ console.log (`uma string com acento grave
     console.log( Infinity ? "VERDADEIRO" : "FALSO")
 
     //Estrutura de condição IF
-    let hour = 13
+    let hour = 20
     if (hour <= 12) {
         console.log ("Bom dia!")   
     }
+    else if (hour >=12 && hour <=18)
+        console.log ("Boa tarde!")
     else {
-        console.log("Boa tarde!")
+        console.log("Boa noite!")
     }
