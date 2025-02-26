@@ -164,5 +164,13 @@ console.log (`uma string com acento grave
         console.log("fim")
     }
 
+    //Criando uma função
+
+    function menssage () {
+        console.log ("Olá, é bom ter você aqui!")   
+    }
+
+    menssage()
+
     
 
