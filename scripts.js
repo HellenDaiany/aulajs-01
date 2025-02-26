@@ -179,5 +179,18 @@ console.log (`uma string com acento grave
     }
 
     joinText ("Hellen")
+
+    function ShowMenssage(menssage) {
+        console.log(menssage)
+        endLine()
+        
+        function endLine() {
+            console.log("----------")
+        }
+        
+    }
+    ShowMenssage("como vai?")
+    ShowMenssage("Vou bem e voce?")
+    ShowMenssage("bem tambem, obrigada")
     
 
