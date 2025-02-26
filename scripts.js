@@ -172,5 +172,12 @@ console.log (`uma string com acento grave
     //Passando argumentos
     menssage("Hellen")
 
+    //Definindo um valor (argumento) padrão
+    function joinText(text1, text2= "", text3 ="") {
+        
+        console.log(text1,text2,text3)
+    }
+
+    joinText ("Hellen")
     
 
