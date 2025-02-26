@@ -146,3 +146,23 @@ console.log (`uma string com acento grave
         default: console.log("Opção inválida")
             break
     }
+
+    //Tratamento de exeções -TRY/ CATCH/ FINALLY
+    let result = 1
+    try {
+       //TENTA executar algo.
+       if (result===0) {
+        throw new Error("O valor é igual a zero.");
+        
+       }
+    } catch (error) {
+        //CAPTURA o erro para tratar.
+        console.log (" possível executar mente mais tarde!")
+    }
+
+    finally {
+        console.log("fim")
+    }
+
+    
+
